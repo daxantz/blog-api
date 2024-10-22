@@ -29,5 +29,3 @@ main()
   .finally(async () => {
     await prisma.$disconnect();
   });
-
-console.log(process.env.TEST); // Add this line in your entry file
